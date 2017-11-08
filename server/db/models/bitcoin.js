@@ -9,6 +9,7 @@ const User = db.define('user', {
   }
 })
 
+
 module.exports = Bitcoin
 
 
