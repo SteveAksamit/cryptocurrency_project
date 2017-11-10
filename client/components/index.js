@@ -5,4 +5,9 @@
  */
 export {default as Main} from './main'
 export {default as UserHome} from './user-home'
+export {default as OneMonth} from './OneMonth'
+export {default as EthereumPositive} from './EthereumPositive'
+export {default as EthereumNegative} from './EthereumNegative'
+export {default as BitcoinPositive} from './BitcoinPositive'
+export {default as BitcoinNegative} from './BitcoinNegative'
 export {Login, Signup} from './auth-form'

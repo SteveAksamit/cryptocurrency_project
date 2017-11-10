@@ -15,21 +15,15 @@ const Main = (props) => {
 
   return (
     <div>
-      <h1>BOILERMAKER</h1>
+      <h1>Ethereum - Bitcoin Price Analysis</h1>
       <nav>
-        {
-          isLoggedIn
-            ? <div>
-              {/* The navbar will show these links after you log in */}
-              <Link to="/home">Home</Link>
-              <a href="#" onClick={handleClick}>Logout</a>
-            </div>
-            : <div>
-              {/* The navbar will show these links before you log in */}
-              <Link to="/login">Login</Link>
-              <Link to="/signup">Sign Up</Link>
-            </div>
-        }
+        <div>
+              <Link to="/oneMonth">One Month</Link>
+              <Link to="/bitcoinPositive">BTC Positive News</Link>
+              <Link to="/bitcoinNegative">BTC Negative News</Link>
+              <Link to="/ethereumPositive">ETH Positive News</Link>
+              <Link to="/ethereumNegative">ETH Negative News</Link>
+        </div>
       </nav>
       <hr />
       {children}

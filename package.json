@@ -22,7 +22,9 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.3",
+    "aylien-news-api": "github:AYLIEN/aylien_newsapi_nodejs",
     "body-parser": "^1.16.1",
+    "btc-price": "^0.3.1",
     "compression": "^1.7.1",
     "connect-session-sequelize": "^4.1.0",
     "express": "^4.14.1",
@@ -39,6 +41,7 @@
     "react-redux": "^5.0.2",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
+    "react-tableau-report": "^1.0.4",
     "redux": "^3.6.0",
     "redux-logger": "^2.8.1",
     "redux-thunk": "^2.2.0",
